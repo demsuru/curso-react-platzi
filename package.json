@@ -12,7 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -r git@github.com:demsuru/curso-react-platzi.git",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -32,7 +32,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "htts://demsuru.github.io/curso-react-platzi",
+  "homepage": "https://demsuru.github.io/curso-react-platzi",
   "devDependencies": {
     "gh=pages":"^5.0.0"
   }
